@@ -7,7 +7,7 @@ public class CampusHelperRunner {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ask me about a class or a teacher:"); //Beginning sentence to start conversation
 
-        // Classes with associated locations, times, and teachers
+        // thingies with locations, times, and teachers
         ArrayList<String> compSciClasses = new ArrayList<>(); //sets up everything for computer science
         compSciClasses.add("comp sci");
         compSciClasses.add("computer science");
@@ -95,16 +95,16 @@ public class CampusHelperRunner {
                 }
             }
 
-            // Check "who is [teacher]"
+            // Check "who is [teacher]"who
             for (String prefix : TeachPrefixes) { //I added this for some noteworthy teachers, that if mentions give a specific response
                 String lowerPrefix = prefix.toLowerCase();
                 int whoIsPos = yourResponse.indexOf("who is " + lowerPrefix.toLowerCase());
                 if (whoIsPos != -1) {
                     String teacherName = yourResponse.substring(whoIsPos + 7).trim();
                     // Match known teachers
-                    if (teacherName.equals("Mrs ray")) {
+                    if (teacherName.equals("mrs ray")) {
                         response = "Mrs Ray is the goat dude";
-                    } else if (teacherName.equals("Mr pratt")) {
+                    } else if (teacherName.equals("mr pratt")) {
                         response = "he does robotics";
                     }
                 }
