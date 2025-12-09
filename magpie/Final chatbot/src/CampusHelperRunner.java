@@ -95,7 +95,6 @@ public class CampusHelperRunner {
                 }
             }
 
-            // Check "who is [teacher]"who
             for (String prefix : TeachPrefixes) { //I added this for some noteworthy teachers, that if mentions give a specific response
                 String lowerPrefix = prefix.toLowerCase();
                 int whoIsPos = yourResponse.indexOf("who is " + lowerPrefix.toLowerCase());
