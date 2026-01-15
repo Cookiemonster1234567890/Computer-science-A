@@ -11,6 +11,9 @@ public class CampusHelperRunner {
         ArrayList<String> compSciClasses = new ArrayList<>(); //sets up everything for computer science
         compSciClasses.add("comp sci");
         compSciClasses.add("computer science");
+        compSciClasses.add("AP computer science");
+        compSciClasses.add("coding");
+        compSciClasses.add("coding class");
         ArrayList<String> compSciTimes = new ArrayList<>();
         compSciTimes.add("C block");
         ArrayList<String> compSciRooms = new ArrayList<>();
@@ -21,6 +24,7 @@ public class CampusHelperRunner {
         ArrayList<String> chemClasses = new ArrayList<>(); //sets up everything for chemisty
         chemClasses.add("chem");
         chemClasses.add("chemistry");
+        chemClasses.add("AP chemistry");
         ArrayList<String> chemTimes = new ArrayList<>();
         chemTimes.add("F block");
         ArrayList<String> chemRooms = new ArrayList<>();
@@ -32,6 +36,8 @@ public class CampusHelperRunner {
         calcClasses.add("calc");
         calcClasses.add("calculus");
         calcClasses.add("AP calculus");
+        calcClasses.add("math");
+        calcClasses.add("mathematics");
         ArrayList<String> calcTimes = new ArrayList<>();
         calcTimes.add("H block");
         ArrayList<String> calcRooms = new ArrayList<>();
